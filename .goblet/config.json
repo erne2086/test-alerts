@@ -1,0 +1,12 @@
+{
+    "cloudfunction":{
+        "environmentVariables":
+        {
+            "SLACK_WEBHOOK": "SLACK_WEBHOOK",
+            "BILLING_ORG": "GDO.RACKSPACE.COM",
+            "BILLING_ID": "1270657-US-Rackspace-GDO-GCP",
+            "BQ_TABLE": "rax-architecture-sandbox.rax_gcp_billing.gcp_billing_export_v1_018918_BC80F7_298FEC"
+        },
+        "serviceAccountEmail": "gdo-gcp-bq-schedule-svc@rax-datascience.iam.gserviceaccount.com" 
+    }
+}
